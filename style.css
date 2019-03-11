@@ -7,6 +7,12 @@ body {
   width: 1020px;
 }
 
+.header {
+  height: 63px;
+
+  background-color: #323232;
+}
+
 .hexagon, .hexagon-part1, .hexagon-part2 {
   overflow: hidden;
 }
@@ -50,4 +56,16 @@ body {
 .hexagon-row-4, .hexagon-row-5 {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.about {
+  height: 341px;
+
+  background-color: #2eb398;
+}
+
+.footer {
+  height: 607px;
+
+  background-color: #323232;
 }
