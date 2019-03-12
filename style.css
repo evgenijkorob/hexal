@@ -28,8 +28,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .header-triangle {
   position: absolute;
   top: 100%;
@@ -41,6 +39,25 @@ body {
   border-width: 25px 45px 0 45px;
   border-style: solid;
   border-color: #323232 transparent transparent transparent;
+}
+
+.header-separator-left,
+.header-separator-right {
+  position: absolute;
+  top: 74px;
+
+  width: 410px;
+  height: 1px;
+
+  background-color: #e4e9eb;
+}
+
+.header-separator-left {
+  left: 30px;
+}
+
+.header-separator-right {
+  right: 30px;
 }
 
 .hexagon,
