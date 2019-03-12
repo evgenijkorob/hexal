@@ -41,22 +41,24 @@ body {
   border-color: #323232 transparent transparent transparent;
 }
 
-.header-separator-left,
-.header-separator-right {
+.header::before,
+.header::after {
+  content: " ";
   position: absolute;
   top: 74px;
 
+  display: block;
   width: 410px;
   height: 1px;
 
   background-color: #e4e9eb;
 }
 
-.header-separator-left {
+.header::before {
   left: 30px;
 }
 
-.header-separator-right {
+.header::after {
   right: 30px;
 }
 
