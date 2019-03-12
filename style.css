@@ -5,12 +5,41 @@ html {
 body {
   margin: 0 auto;
   width: 1020px;
+
+  font-family: 'Lato', sans-serif;
 }
 
 .header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: center;
   height: 63px;
 
   background-color: #323232;
+}
+
+.header-link a {
+  font-size: 7.2pt;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-logo {
+}
+
+.header-triangle {
+  position: absolute;
+  left: calc(50% - 45px);
+  top: 100%;
+  width: 0;
+  height: 0;
+
+  border-style: solid;
+  border-width: 25px 45px 0 45px;
+  border-color: #323232 transparent transparent transparent;
 }
 
 .hexagon, .hexagon-part1, .hexagon-part2 {
@@ -69,3 +98,8 @@ body {
 
   background-color: #323232;
 }
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+*/
