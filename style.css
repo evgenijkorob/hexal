@@ -108,6 +108,23 @@ body {
   flex-wrap: nowrap;
 }
 
+.portfolio-slider {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-element {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+
+  background-color: #ddd2c5;
+}
+
+.slider-element:nth-of-type(3) {
+  background-color: #8b8784;
+}
+
 .about {
   height: 341px;
 
