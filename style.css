@@ -92,6 +92,10 @@ body {
 }
 
 .portfolio {
+  padding: 89px 0 23px 0;
+}
+
+.portfolio-picture-container {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -102,6 +106,31 @@ body {
   margin: -43px 0;
 }
 
+.hexagon-row-4 {
+  position: relative;
+}
+
+.hexagon-row-4::before,
+.hexagon-row-4::after {
+  content: " ";
+  position: absolute;
+  top: calc(50% - 52px);
+
+  display: inline-block;
+  width: 1px;
+  height: 104px;
+
+  background-color: #e4e9eb;
+}
+
+.hexagon-row-4::before {
+  left: -13px;
+}
+
+.hexagon-row-4::after {
+  right: -13px;
+}
+
 .hexagon-row-4,
 .hexagon-row-5 {
   display: flex;
@@ -109,7 +138,8 @@ body {
 }
 
 .portfolio-slider {
-  margin: 0;
+  display: inline-block;
+  margin: 58px 0 0 30px;
   padding: 0;
 }
 
