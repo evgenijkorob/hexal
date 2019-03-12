@@ -285,6 +285,14 @@ body {
   font-size: 0;
 }
 
+.social-media-element img {
+  filter: grayscale(1) opacity(0.5);
+}
+
+.social-media-element img:hover {
+  filter: grayscale(0);
+}
+
 .footer {
   height: 607px;
 
