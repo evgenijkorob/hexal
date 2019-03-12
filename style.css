@@ -156,9 +156,32 @@ body {
 }
 
 .about {
+  position: relative;
+
   height: 341px;
 
   background-color: #2eb398;
+}
+
+.about-top-separator,
+.about-bottom-separator {
+  position: absolute;
+  left: 30px;
+
+  width: 960px;
+  height: 1px;
+}
+
+.about-top-separator {
+  top: -11px;
+
+  background-color: #e4e9eb;
+}
+
+.about-bottom-separator {
+  bottom: -13px;
+
+  background-color: #2b2b2b;
 }
 
 .footer {
