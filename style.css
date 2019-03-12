@@ -132,6 +132,16 @@ body {
   align-items: center;
 }
 
+.portfolio-picture-container .hexagon-part2 {
+  background-size: 100%;
+
+  transition: background-size 0.4s ease-in-out;
+}
+
+.portfolio-picture-container .hexagon-part2:hover {
+  background-size: 120%;
+}
+
 .hexagon-row-5 {
   margin: -43px 0;
 }
@@ -206,6 +216,7 @@ body {
 .about-article-wrapper .hexagon {
   margin: 0;
 }
+
 .about-article-wrapper .hexagon-part2 {
   background-image: url("./assets/about/Image@1X.png");
   background-position: 50%;
