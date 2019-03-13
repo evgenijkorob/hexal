@@ -236,7 +236,8 @@ body {
 .about-article h1 {
   margin: 0;
 
-  font-size: 22pt;
+  font-size: 28px;
+  line-height: 0.8em;
   color: #d7fcf5;
 
   margin-block-end: 0;
@@ -246,13 +247,14 @@ body {
 .about-article h2 {
   margin: 0;
 
-  font-size: 14pt;
+  font-size: 17px;
+  line-height: 1.5em;
   color: #20816d;
 }
 
 .about-article p {
-  font-size: 9pt;
-  line-height: 12pt;
+  font-size: 12px;
+  line-height: 1.8em;
   color: #d7fcf5;
   word-wrap: break-word;
 }
